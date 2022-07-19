@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input{
+  margin-left: 5%;
+  margin-bottom: 1%;
+  width: 150px;
+}
+
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: left;
+}
+
+.leftChild {
+  display: inline-block;
+  padding: 1rem 1rem;
+  padding-top: 0;
+  vertical-align: middle;
+}
+
+.user-form label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
+.user-form{
+  margin-left: 0;
+}
+
+.new-task-or-post
+{
+  padding-left: 1%;
+}
+
+.new-task-or-post label
+{
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
+.new-task-or-post input[type=text],textarea
+{
+  
+  width: 300px;
+  
+}
+
+.new-task-or-post textarea
+{
+  
+  width: 300px;
+  height: 100px;
+  vertical-align: top;
+  
+}
+
+.task-or-post .title-area:disabled
+{
+  
+  width: 300px;
+  height: 50px;
+  vertical-align: top;
+  background-color: white;
+  color: black;
+  
+}
+
+.task-or-post textarea:disabled
+{
+  
+  width: 300px;
+  height: 100px;
+  vertical-align: top;
+  background-color: white;
+  color: black;
+
+  
+}
+.task-or-post label
+{
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
+.user-buttons-div
+{
+  display: inline-block;
+  text-align: center;
+  margin-right: 3%;
+}
+
+.other-data-button-div
+{
+  
+  float: left;
+}
+
+.other-data-button
+{
+  margin-left: 0;
+  width: fit-content;
+
+}
+
+.main-data-div
+{
+  padding-left: 1.5%;
+  
+}
+
+.other-data
+{
+  background-color: #E5E7E9;
+}
+
+.other-data-div
+{
+  
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  padding: 1.5%;
+  background-color: #E5E7E9;
+  border-radius: 13px;
+  border: 2px solid #212F3C;
+}
+
+.orange-button
+{
+  background-color: #ffe699;
+  width: fit-content;
+}
+
+.outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+
+
