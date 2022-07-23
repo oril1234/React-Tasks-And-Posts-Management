@@ -56,7 +56,6 @@ function UsersComp() {
       })) 
       setAllUsers(fullData);
       
-      
     }
     getUsers()
     },[]
@@ -146,6 +145,7 @@ function UsersComp() {
     setSelectedUserId(userId)
     setShowTodos(true);
     setShowPosts(true);
+    setAddNewUserMode(false)
     
   }
 
