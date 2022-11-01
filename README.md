@@ -3,7 +3,7 @@ A React application to manage to-do's and posts of people.
 The app admin can:
 - Assign tasks to users, as well as update their details and status if completed.
 - document posts created by users, as well as edit their details.
-- Add/Delete users, as well as update their personal details..
+- Add/Delete users, as well as update their personal details.
 
 ## Setup And Installation
 
